@@ -1,0 +1,1450 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.greycom.stickers",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "فنجان قهوة مهم فشخ",
+      "publisher": "Jane Doe",
+      "tray_image_file": "tray_Cuppy.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_Cuppy_smile.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_Cuppy_lol.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_Cuppy_rofl.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_Cuppy_sad.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_Cuppy_cry.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_Cuppy_love.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_Cuppy_hate.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_Cuppy_lovewithmug.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_Cuppy_lovewithcookie.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_Cuppy_hmm.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_Cuppy_upset.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_Cuppy_angry.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_Cuppy_curious.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_Cuppy_weird.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_Cuppy_bluescreen.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_Cuppy_angry.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_Cuppy_tired.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_Cuppy_workhard.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_Cuppy_shine.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_Cuppy_disgusting.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_Cuppy_hi.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_Cuppy_bye.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_Cuppy_greentea.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_Cuppy_phone.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_Cuppy_battery.webp",
+          "emojis": ["🔋","😵"]
+        }
+      ]
+    },
+
+    {
+      "identifier": "2",
+      "name": "قفشات افلام بضينة",
+      "publisher": "greyCom",
+      "tray_image_file": "30_stk_movie.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_movie.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_movie.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_movie.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_movie.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_movie.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_movie.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_movie.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_movie.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_movie.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_movie.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_movie.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_movie.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_movie.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_movie.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_movie.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_movie.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_movie.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_movie.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_movie.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_movie.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_movie.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_movie.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_movie.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_movie.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_movie.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_movie.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_movie.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_movie.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "29_stk_movie.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "30_stk_movie.webp",
+          "emojis": ["🔋","😵"]
+        }
+      ]
+    },
+
+    {
+      "identifier": "egy",
+      "name": "شرية حاجات مالهاش عازة \uD83D\uDE04",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_egy.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_egy.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_egy.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_egy.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_egy.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_egy.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_egy.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_egy.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_egy.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_egy.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_egy.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_egy.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_egy.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_egy.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_egy.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_egy.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_egy.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_egy.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_egy.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_egy.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_egy.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_egy.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_egy.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_egy.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_egy.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_egy.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_egy.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_egy.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_egy.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "29_stk_egy.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "girls",
+      "name": "استيكرات تلاميذ ابتدائى \uD83D\uDE04",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_girl.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_girl.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_girl.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_girl.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_girl.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_girl.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_girl.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_girl.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_girl.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_girl.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_girl.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_girl.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_girl.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_girl.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_girl.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_girl.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_girl.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_girl.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_girl.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_girl.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_girl.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_girl.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_girl.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_girl.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_girl.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_girl.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_girl.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_girl.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_girl.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "cartoon",
+      "name": "cartoon slang",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_cartoon.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_cartoon.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_cartoon.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_cartoon.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_cartoon.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_cartoon.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_cartoon.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_cartoon.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_cartoon.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_cartoon.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_cartoon.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_cartoon.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_cartoon.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_cartoon.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_cartoon.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_cartoon.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_cartoon.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_cartoon.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_cartoon.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_cartoon.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_cartoon.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_cartoon.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_cartoon.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_cartoon.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_cartoon.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_cartoon.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_cartoon.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_cartoon.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_cartoon.webp",
+          "emojis": ["🔋","😵"]
+        },{
+          "image_file": "29_stk_cartoon.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "tom",
+      "name": "Tom",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_tom.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_tom.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_tom.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_tom.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_tom.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_tom.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_tom.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_tom.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_tom.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_tom.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_tom.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_tom.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_tom.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_tom.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_tom.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_tom.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_tom.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_tom.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_tom.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_tom.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_tom.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_tom.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_tom.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_tom.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_tom.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_tom.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_tom.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_tom.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_tom.webp",
+          "emojis": ["🔋","😵"]
+        },{
+          "image_file": "29_stk_tom.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "30_stk_tom.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "couple",
+      "name": "شوية محن علشان السوق للاسف \uD83D\uDE04",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_couple.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_couple.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_couple.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_couple.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_couple.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_couple.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_couple.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_couple.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_couple.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_couple.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_couple.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_couple.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_couple.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_couple.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_couple.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_couple.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_couple.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_couple.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_couple.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_couple.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_couple.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_couple.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_couple.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_couple.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_couple.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_couple.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_couple.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_couple.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_couple.webp",
+          "emojis": ["🔋","😵"]
+        },{
+          "image_file": "29_stk_couple.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "30_stk_couple.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "pubg",
+      "name": "PUBG",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_pubg.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_pubg.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_pubg.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_pubg.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_pubg.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_pubg.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_pubg.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_pubg.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_pubg.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_pubg.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_pubg.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_pubg.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_pubg.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_pubg.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_pubg.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_pubg.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_pubg.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_pubg.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_pubg.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_pubg.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_pubg.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_pubg.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_pubg.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_pubg.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_pubg.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_pubg.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_pubg.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_pubg.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_pubg.webp",
+          "emojis": ["🔋","😵"]
+        },{
+          "image_file": "29_stk_pubg.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "30_stk_pubg.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "flowers",
+      "name": "ورد علشاان الناس الراقية",
+      "publisher": "greyCom",
+      "tray_image_file": "01_stk_flower.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_flower.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_flower.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_flower.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_flower.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_flower.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_flower.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_flower.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_flower.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_flower.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_flower.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_flower.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_flower.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_flower.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_flower.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_flower.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_flower.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_flower.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_flower.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_flower.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_flower.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_flower.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_flower.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_flower.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_flower.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_flower.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_flower.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_flower.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_flower.webp",
+          "emojis": ["🔋","😵"]
+        },{
+          "image_file": "29_stk_flower.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "30_stk_flower.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "happy",
+      "name": "ضحك لو مكسل ترد على واحد رغاى \uD83D\uDE04",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_happy.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_happy.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_happy.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_happy.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_happy.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_happy.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_happy.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_happy.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_happy.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_happy.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_happy.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_happy.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_happy.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_happy.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_happy.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_happy.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_happy.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_happy.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_happy.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_happy.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_happy.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_happy.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_happy.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_happy.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_happy.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_happy.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_happy.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_happy.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "28_stk_happy.webp",
+          "emojis": ["🔋","😵"]
+        },{
+          "image_file": "29_stk_happy.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "30_stk_happy.webp",
+          "emojis": ["🔋","😵"]
+        }
+
+      ]
+    },
+
+    {
+      "identifier": "angry",
+      "name": "غضب علشان لو مش عاوز تقل ادبك على حد \uD83D\uDE04",
+      "publisher": "greyCom",
+      "tray_image_file": "04_stk_angry.webp",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_stk_angry.webp",
+          "emojis": ["☕","🙂"]
+        },
+        {
+          "image_file": "02_stk_angry.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_stk_angry.webp",
+          "emojis": ["😆","😂"]
+        },
+        {
+          "image_file": "04_stk_angry.webp",
+          "emojis": ["😩","😰"]
+        },
+        {
+          "image_file": "05_stk_angry.webp",
+          "emojis": ["😭","💧"]
+        },
+        {
+          "image_file": "06_stk_angry.webp",
+          "emojis": ["😍","♥"]
+        },
+        {
+          "image_file": "07_stk_angry.webp",
+          "emojis": ["💔","👎"]
+        },
+        {
+          "image_file": "08_stk_angry.webp",
+          "emojis": ["😍","💑"]
+        },
+        {
+          "image_file": "09_stk_angry.webp",
+          "emojis": ["😘","🍪"]
+        },
+        {
+          "image_file": "10_stk_angry.webp",
+          "emojis": ["🤔","😐"]
+        },
+        {
+          "image_file": "11_stk_angry.webp",
+          "emojis": ["😱","😵"]
+        },
+        {
+          "image_file": "12_stk_angry.webp",
+          "emojis": ["😡","😠"]
+        },
+        {
+          "image_file": "13_stk_angry.webp",
+          "emojis": ["❓","🤔"]
+        },
+        {
+          "image_file": "14_stk_angry.webp",
+          "emojis": ["🌈","😜"]
+        },
+        {
+          "image_file": "15_stk_angry.webp",
+          "emojis": ["💻","😩"]
+        },
+        {
+          "image_file": "16_stk_angry.webp",
+          "emojis": ["😡","😤"]
+        },
+        {
+          "image_file": "17_stk_angry.webp",
+          "emojis": ["😩","😨"]
+        },
+        {
+          "image_file": "18_stk_angry.webp",
+          "emojis": ["💻","🌃"]
+        },
+        {
+          "image_file": "19_stk_angry.webp",
+          "emojis": ["🎉","✨"]
+        },
+        {
+          "image_file": "20_stk_angry.webp",
+          "emojis": ["🤮","👎"]
+        },
+        {
+          "image_file": "21_stk_angry.webp",
+          "emojis": ["🖐","🙋"]
+        },
+        {
+          "image_file": "22_stk_angry.webp",
+          "emojis": ["🖐","👋"]
+        },
+        {
+          "image_file": "23_stk_angry.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "24_stk_angry.webp",
+          "emojis": ["📱","😦"]
+        },
+        {
+          "image_file": "25_stk_angry.webp",
+          "emojis": ["🔋","😵"]
+        },
+        {
+          "image_file": "26_stk_angry.webp",
+          "emojis": ["🍵","😌"]
+        },
+        {
+          "image_file": "27_stk_angry.webp",
+          "emojis": ["📱","😦"]
+        }
+
+      ]
+    }
+
+
+
+
+
+  ]
+}
