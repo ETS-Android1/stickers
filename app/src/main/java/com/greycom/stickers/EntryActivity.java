@@ -35,7 +35,6 @@ public class EntryActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_entry);
-        MobileAds.initialize(this, initializationStatus -> {});
 
         overridePendingTransition(0, 0);
         if (getSupportActionBar() != null) {
@@ -69,6 +68,7 @@ public class EntryActivity extends BaseActivity {
         Log.e("EntryActivity", "error fetching sticker packs, " + errorMessage);
         final TextView errorMessageTV = findViewById(R.id.error_message);
         errorMessageTV.setText(getString(R.string.error_message, errorMessage));
+
     }
 
     @Override

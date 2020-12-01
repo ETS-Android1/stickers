@@ -30,8 +30,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
 import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
 import com.google.android.gms.ads.rewarded.RewardedAdCallback;
@@ -40,7 +38,7 @@ import com.google.android.gms.ads.rewarded.RewardedAdLoadCallback;
 import java.lang.ref.WeakReference;
 
 public class StickerPackDetailsActivity extends AddStickerPackActivity {
-    public static final String TAG = "DetailsActivity";
+    public static final String TAG = "DetailsActivityTAG";
     /**
      * Do not change below values of below 3 lines as this is also used by WhatsApp
      */
@@ -61,7 +59,8 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private StickerPreviewAdapter stickerPreviewAdapter;
     private int numColumns;
     private View addButton;
-    private View alreadyAddedText;
+    private View progressBar;
+    private TextView alreadyAddedText;
     private StickerPack stickerPack;
     private View divider;
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
@@ -72,14 +71,16 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sticker_pack_details);
-        loadRewardedAds();
         setUpShowRewardedAdCallBack();
+
+
         boolean showUpButton = getIntent().getBooleanExtra(EXTRA_SHOW_UP_BUTTON, false);
         stickerPack = getIntent().getParcelableExtra(EXTRA_STICKER_PACK_DATA);
         TextView packNameTextView = findViewById(R.id.pack_name);
         TextView packPublisherTextView = findViewById(R.id.author);
         ImageView packTrayIcon = findViewById(R.id.tray_image);
         TextView packSizeTextView = findViewById(R.id.pack_size);
+        progressBar = findViewById(R.id.details_progress_bar);
 
         addButton = findViewById(R.id.add_to_whatsapp_button);
         alreadyAddedText = findViewById(R.id.already_added_text);
@@ -97,13 +98,14 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         packPublisherTextView.setText(stickerPack.publisher);
         packTrayIcon.setImageURI(StickerPackLoader.getStickerAssetUri(stickerPack.identifier, stickerPack.trayImageFile));
         packSizeTextView.setText(Formatter.formatShortFileSize(this, stickerPack.getTotalSize()));
+
         addButton.setOnClickListener(v -> {
             Log.i(TAG, "onCreate: Button OnClickListener ");
             if (rewardedAd.isLoaded()) {
                 Activity activityContext = StickerPackDetailsActivity.this;
                 Log.i(TAG, "onCreate: rewardedAd isLoaded == True");
                 rewardedAd.show(activityContext, showRewardedAdCallBack);
-            }else{
+            } else {
                 rewardedAd = loadRewardedAds();
             }
         });
@@ -112,35 +114,66 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("");
             getSupportActionBar().setDisplayHomeAsUpEnabled(showUpButton);
-            // getSupportActionBar().setTitle(showUpButton ? getResources().getString(R.string.title_activity_sticker_pack_details_multiple_pack) : getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, 1));
+            //    getSupportActionBar().setTitle(showUpButton ? getResources().getString(R.string.title_activity_sticker_pack_details_multiple_pack) : getResources().getQuantityString(R.plurals.title_activity_sticker_packs_list, 1));
         }
     }
 
 
     private RewardedAd loadRewardedAds() {
-
+        uiLoading();
         rewardedAd = new RewardedAd(this, getString(R.string.rewarded_ad_unit));
 
         RewardedAdLoadCallback adLoadCallback = new RewardedAdLoadCallback() {
             @Override
             public void onRewardedAdLoaded() {
-                // Ad successfully loaded.
                 Log.i(TAG, "onRewardedAdLoaded: ");
-                addButton.setBackgroundColor(getResources().getColor(R.color.green));
+                uiLoadingDone();
 
             }
 
             @Override
             public void onRewardedAdFailedToLoad(LoadAdError adError) {
                 // Ad failed to load.
-                Toast.makeText(StickerPackDetailsActivity.this,adError.getMessage(),Toast.LENGTH_LONG).show();
-                Log.i(TAG, "onRewardedAdFailedToLoad:  " + adError.getMessage());
+                if (adError.getCode() == 0) {
+                    alreadyAddedText.setVisibility(View.VISIBLE);
+                    alreadyAddedText.setText(getResources().getString(R.string.check_your_internet_connection));
+                }
+                Toast.makeText(StickerPackDetailsActivity.this, adError.getMessage(), Toast.LENGTH_LONG).show();
+                Log.i(TAG, "onRewardedAdFailedToLoad: adError.getMessage = " + adError.getMessage());
+                Log.i(TAG, "onRewardedAdFailedToLoad:  adError.toString =" + adError.toString());
             }
         };
+
         rewardedAd.loadAd(new AdRequest.Builder().build(), adLoadCallback);
         return rewardedAd;
 
     }
+
+
+    private void updateAddUI(Boolean isWhitelisted) {
+        if (isWhitelisted) uiAlreadyAdded();
+        else loadRewardedAds();
+    }
+
+    private void uiAlreadyAdded() {
+        addButton.setVisibility(View.GONE);
+        progressBar.setVisibility(View.GONE);
+        alreadyAddedText.setVisibility(View.VISIBLE); // only visible
+    }
+
+
+    private void uiLoadingDone() {
+        alreadyAddedText.setVisibility(View.GONE);
+        addButton.setVisibility(View.VISIBLE); // only visible
+        progressBar.setVisibility(View.INVISIBLE);
+    }
+
+    private void uiLoading() {
+        alreadyAddedText.setVisibility(View.GONE);
+        addButton.setVisibility(View.INVISIBLE);
+        progressBar.setVisibility(View.VISIBLE); // only visible
+    }
+
 
     private void setUpShowRewardedAdCallBack() {
         showRewardedAdCallBack = new RewardedAdCallback() {
@@ -148,6 +181,8 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
             public void onUserEarnedReward(@NonNull RewardItem rewardItem) {
                 Log.i(TAG, "onUserEarnedReward: ");
                 addStickerPackToWhatsApp(stickerPack.identifier, stickerPack.name);
+                whiteListCheckAsyncTask.execute(stickerPack);
+
             }
 
             @Override
@@ -159,17 +194,18 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
             @Override
             public void onRewardedAdClosed() {
                 super.onRewardedAdClosed();
-                StickerPackDetailsActivity.this.rewardedAd = loadRewardedAds();
-                addButton.setBackgroundColor(getResources().getColor(R.color.grey));
+
+                //    StickerPackDetailsActivity.this.rewardedAd = loadRewardedAds();
+                whiteListCheckAsyncTask.execute(stickerPack);
+
                 Log.i(TAG, "onRewardedAdClosed: ");
             }
 
             @Override
             public void onRewardedAdFailedToShow(AdError adError) {
                 super.onRewardedAdFailedToShow(adError);
-
-
-                Log.i(TAG, "onRewardedAdFailedToShow: ");
+                Log.i(TAG, "onRewardedAdFailedToShow: adError.getMessage() = " + adError.getMessage());
+                Log.i(TAG, "onRewardedAdFailedToShow: adError.getCause() = " + adError.getCause());
             }
         };
     }
@@ -256,15 +292,6 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         }
     }
 
-    private void updateAddUI(Boolean isWhitelisted) {
-        if (isWhitelisted) {
-            addButton.setVisibility(View.GONE);
-            alreadyAddedText.setVisibility(View.VISIBLE);
-        } else {
-            addButton.setVisibility(View.VISIBLE);
-            alreadyAddedText.setVisibility(View.GONE);
-        }
-    }
 
     static class WhiteListCheckAsyncTask extends AsyncTask<StickerPack, Void, Boolean> {
         private final WeakReference<StickerPackDetailsActivity> stickerPackDetailsActivityWeakReference;

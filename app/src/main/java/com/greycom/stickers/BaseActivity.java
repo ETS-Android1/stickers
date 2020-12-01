@@ -27,8 +27,8 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        StatusBarUtil.setColor(this, getResources().getColor(R.color.barColor), StatusBarUtil.DEFAULT_STATUS_BAR_ALPHA);
-
+        StatusBarUtil.setColor(this, getResources().getColor(R.color.barColor));
+//StatusBarUtil.setTransparent(BaseActivity.this);
     }
 
     @Override

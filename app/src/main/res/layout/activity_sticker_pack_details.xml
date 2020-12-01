@@ -24,9 +24,9 @@
             android:layout_height="36dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            app:layout_constraintTop_toTopOf="parent"
             android:contentDescription="@string/tray_image_content_description"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:src="@color/colorAccent" />
 
         <TextView
@@ -112,6 +112,7 @@
             android:visibility="gone"
             tools:visibility="visible" />
 
+
         <FrameLayout
             android:id="@+id/add_to_whatsapp_button"
             android:layout_width="match_parent"
@@ -119,6 +120,7 @@
             android:layout_gravity="bottom"
             android:background="@drawable/btn_green"
             android:clickable="true"
+            android:visibility="invisible"
             android:focusable="true"
             android:foreground="?attr/selectableItemBackgroundBorderless">
 
@@ -130,11 +132,27 @@
                 android:background="@android:color/transparent"
                 android:clickable="false"
                 android:drawablePadding="8dp"
+
                 android:focusable="false"
                 android:foreground="@android:color/transparent"
                 android:text="@string/add_to_whatsapp"
                 app:drawableLeftCompat="@drawable/sticker_3rdparty_wa"
                 app:drawableStartCompat="@drawable/sticker_3rdparty_wa" />
         </FrameLayout>
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ProgressBar
+                android:id="@+id/details_progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                />
+        </FrameLayout>
     </FrameLayout>
+
 </LinearLayout>

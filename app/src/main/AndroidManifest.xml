@@ -12,6 +12,7 @@
         android:roundIcon="@drawable/launcher_logo"
         android:supportsRtl="true"
         android:hardwareAccelerated="true"
+
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
@@ -26,7 +27,10 @@
         </activity>
 
         <activity android:name="com.greycom.stickers.StickerPackListActivity"
-            android:theme="@style/AppTheme.PackListActivityNoActionBar"/>
+            android:theme="@style/AppTheme.PackListActivityNoActionBar">
+
+        </activity>
+
         <activity
             android:name="com.greycom.stickers.StickerPackDetailsActivity"
             android:parentActivityName="com.greycom.stickers.StickerPackListActivity"
@@ -36,6 +40,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.greycom.stickers.StickerPackListActivity" />
         </activity>
+
         <activity
             android:name="com.greycom.stickers.StickerPackInfoActivity"
             android:label="@string/title_activity_sticker_pack_info"

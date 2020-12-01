@@ -11,6 +11,7 @@ package com.greycom.stickers;
 import android.app.Application;
 
 import com.facebook.drawee.backends.pipeline.Fresco;
+import com.google.android.gms.ads.MobileAds;
 
 public class StickerApplication extends Application {
 
@@ -18,5 +19,7 @@ public class StickerApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Fresco.initialize(this);
+        MobileAds.initialize(this, initializationStatus -> {});
+
     }
 }

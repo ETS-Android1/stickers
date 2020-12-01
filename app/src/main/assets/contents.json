@@ -4,7 +4,7 @@
   "sticker_packs": [
     {
       "identifier": "1",
-      "name": "فنجان قهوة مهم فشخ",
+      "name": "فنجان قهوة مهم جدا",
       "publisher": "Jane Doe",
       "tray_image_file": "tray_Cuppy.png",
       "image_data_version":"1",
@@ -119,9 +119,9 @@
 
     {
       "identifier": "2",
-      "name": "قفشات افلام بضينة",
+      "name": "شوية حاجات مالهاش لزمة",
       "publisher": "greyCom",
-      "tray_image_file": "30_stk_movie.webp",
+      "tray_image_file": "21_stk_movie.webp",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -254,9 +254,9 @@
 
     {
       "identifier": "egy",
-      "name": "شرية حاجات مالهاش عازة \uD83D\uDE04",
+      "name": "قفشات الأفلام \uD83D\uDE04",
       "publisher": "greyCom",
-      "tray_image_file": "04_stk_egy.webp",
+      "tray_image_file": "07_stk_egy.webp",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -386,7 +386,7 @@
 
     {
       "identifier": "girls",
-      "name": "استيكرات تلاميذ ابتدائى \uD83D\uDE04",
+      "name": "زى ما أنت شايف \uD83D\uDE04",
       "publisher": "greyCom",
       "tray_image_file": "04_stk_girl.webp",
       "image_data_version":"1",
@@ -516,7 +516,7 @@
       "identifier": "cartoon",
       "name": "cartoon slang",
       "publisher": "greyCom",
-      "tray_image_file": "04_stk_cartoon.webp",
+      "tray_image_file": "03_stk_cartoon.webp",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -780,7 +780,7 @@
 
     {
       "identifier": "couple",
-      "name": "شوية محن علشان السوق للاسف \uD83D\uDE04",
+      "name": "الحب ولع فى الذرة \uD83D\uDE04",
       "publisher": "greyCom",
       "tray_image_file": "04_stk_couple.webp",
       "image_data_version":"1",
@@ -792,122 +792,108 @@
       "stickers": [
         {
           "image_file": "01_stk_couple.webp",
-          "emojis": ["☕","🙂"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "02_stk_couple.webp",
-          "emojis": ["😄","😀"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "03_stk_couple.webp",
-          "emojis": ["😆","😂"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "04_stk_couple.webp",
-          "emojis": ["😩","😰"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "05_stk_couple.webp",
-          "emojis": ["😭","💧"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "06_stk_couple.webp",
-          "emojis": ["😍","♥"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "07_stk_couple.webp",
-          "emojis": ["💔","👎"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "08_stk_couple.webp",
-          "emojis": ["😍","💑"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "09_stk_couple.webp",
-          "emojis": ["😘","🍪"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "10_stk_couple.webp",
-          "emojis": ["🤔","😐"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "11_stk_couple.webp",
-          "emojis": ["😱","😵"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "12_stk_couple.webp",
-          "emojis": ["😡","😠"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "13_stk_couple.webp",
-          "emojis": ["❓","🤔"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "14_stk_couple.webp",
-          "emojis": ["🌈","😜"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "15_stk_couple.webp",
-          "emojis": ["💻","😩"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "16_stk_couple.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "17_stk_couple.webp",
-          "emojis": ["😩","😨"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "18_stk_couple.webp",
-          "emojis": ["💻","🌃"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "19_stk_couple.webp",
-          "emojis": ["🎉","✨"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "20_stk_couple.webp",
-          "emojis": ["🤮","👎"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "21_stk_couple.webp",
-          "emojis": ["🖐","🙋"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "22_stk_couple.webp",
-          "emojis": ["🖐","👋"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "23_stk_couple.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "24_stk_couple.webp",
-          "emojis": ["📱","😦"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "25_stk_couple.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "26_stk_couple.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "27_stk_couple.webp",
-          "emojis": ["📱","😦"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "28_stk_couple.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         },{
           "image_file": "29_stk_couple.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "30_stk_couple.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         }
 
       ]
@@ -917,7 +903,7 @@
       "identifier": "pubg",
       "name": "PUBG",
       "publisher": "greyCom",
-      "tray_image_file": "04_stk_pubg.webp",
+      "tray_image_file": "08_stk_pubg.webp",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -1048,6 +1034,7 @@
       ]
     },
 
+
     {
       "identifier": "flowers",
       "name": "ورد علشاان الناس الراقية",
@@ -1062,122 +1049,120 @@
       "stickers": [
         {
           "image_file": "01_stk_flower.webp",
-          "emojis": ["☕","🙂"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "02_stk_flower.webp",
-          "emojis": ["😄","😀"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "03_stk_flower.webp",
-          "emojis": ["😆","😂"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "04_stk_flower.webp",
-          "emojis": ["😩","😰"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "05_stk_flower.webp",
-          "emojis": ["😭","💧"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "06_stk_flower.webp",
-          "emojis": ["😍","♥"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "07_stk_flower.webp",
-          "emojis": ["💔","👎"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "08_stk_flower.webp",
-          "emojis": ["😍","💑"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "09_stk_flower.webp",
-          "emojis": ["😘","🍪"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "10_stk_flower.webp",
-          "emojis": ["🤔","😐"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "11_stk_flower.webp",
-          "emojis": ["😱","😵"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "12_stk_flower.webp",
-          "emojis": ["😡","😠"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "13_stk_flower.webp",
-          "emojis": ["❓","🤔"]
-        },
+          "emojis": ["♥","💑"]        },
         {
           "image_file": "14_stk_flower.webp",
-          "emojis": ["🌈","😜"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "15_stk_flower.webp",
-          "emojis": ["💻","😩"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "16_stk_flower.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "17_stk_flower.webp",
-          "emojis": ["😩","😨"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "18_stk_flower.webp",
-          "emojis": ["💻","🌃"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "19_stk_flower.webp",
-          "emojis": ["🎉","✨"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "20_stk_flower.webp",
-          "emojis": ["🤮","👎"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "21_stk_flower.webp",
-          "emojis": ["🖐","🙋"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "22_stk_flower.webp",
-          "emojis": ["🖐","👋"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "23_stk_flower.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "24_stk_flower.webp",
-          "emojis": ["📱","😦"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "25_stk_flower.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "26_stk_flower.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "27_stk_flower.webp",
-          "emojis": ["📱","😦"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "28_stk_flower.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         },{
           "image_file": "29_stk_flower.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         },
         {
           "image_file": "30_stk_flower.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["♥","💑"]
         }
 
       ]
@@ -1197,11 +1182,11 @@
       "stickers": [
         {
           "image_file": "01_stk_happy.webp",
-          "emojis": ["☕","🙂"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "02_stk_happy.webp",
-          "emojis": ["😄","😀"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "03_stk_happy.webp",
@@ -1209,110 +1194,118 @@
         },
         {
           "image_file": "04_stk_happy.webp",
-          "emojis": ["😩","😰"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "05_stk_happy.webp",
-          "emojis": ["😭","💧"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "06_stk_happy.webp",
-          "emojis": ["😍","♥"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "07_stk_happy.webp",
-          "emojis": ["💔","👎"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "08_stk_happy.webp",
-          "emojis": ["😍","💑"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "09_stk_happy.webp",
-          "emojis": ["😘","🍪"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "10_stk_happy.webp",
-          "emojis": ["🤔","😐"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "11_stk_happy.webp",
-          "emojis": ["😱","😵"]
+          "emojis": ["😆","😂"]
+
         },
         {
           "image_file": "12_stk_happy.webp",
-          "emojis": ["😡","😠"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "13_stk_happy.webp",
-          "emojis": ["❓","🤔"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "14_stk_happy.webp",
-          "emojis": ["🌈","😜"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "15_stk_happy.webp",
-          "emojis": ["💻","😩"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "16_stk_happy.webp",
-          "emojis": ["😡","😤"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "17_stk_happy.webp",
-          "emojis": ["😩","😨"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "18_stk_happy.webp",
-          "emojis": ["💻","🌃"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "19_stk_happy.webp",
-          "emojis": ["🎉","✨"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "20_stk_happy.webp",
-          "emojis": ["🤮","👎"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "21_stk_happy.webp",
-          "emojis": ["🖐","🙋"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "22_stk_happy.webp",
-          "emojis": ["🖐","👋"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "23_stk_happy.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "24_stk_happy.webp",
-          "emojis": ["📱","😦"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "25_stk_happy.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "26_stk_happy.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "27_stk_happy.webp",
-          "emojis": ["📱","😦"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "28_stk_happy.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["😆","😂"]
         },{
           "image_file": "29_stk_happy.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["😆","😂"]
         },
         {
           "image_file": "30_stk_happy.webp",
-          "emojis": ["🔋","😵"]
+          "emojis": ["😆","😂"]
         }
 
       ]
@@ -1322,7 +1315,7 @@
       "identifier": "angry",
       "name": "غضب علشان لو مش عاوز تقل ادبك على حد \uD83D\uDE04",
       "publisher": "greyCom",
-      "tray_image_file": "04_stk_angry.webp",
+      "tray_image_file": "25_stk_angry.webp",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
@@ -1332,107 +1325,87 @@
       "stickers": [
         {
           "image_file": "01_stk_angry.webp",
-          "emojis": ["☕","🙂"]
-        },
-        {
-          "image_file": "02_stk_angry.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "03_stk_angry.webp",
-          "emojis": ["😆","😂"]
-        },
-        {
-          "image_file": "04_stk_angry.webp",
-          "emojis": ["😩","😰"]
-        },
-        {
-          "image_file": "05_stk_angry.webp",
-          "emojis": ["😭","💧"]
-        },
-        {
-          "image_file": "06_stk_angry.webp",
-          "emojis": ["😍","♥"]
-        },
-        {
-          "image_file": "07_stk_angry.webp",
-          "emojis": ["💔","👎"]
-        },
-        {
-          "image_file": "08_stk_angry.webp",
-          "emojis": ["😍","💑"]
-        },
-        {
-          "image_file": "09_stk_angry.webp",
-          "emojis": ["😘","🍪"]
-        },
-        {
-          "image_file": "10_stk_angry.webp",
-          "emojis": ["🤔","😐"]
-        },
-        {
-          "image_file": "11_stk_angry.webp",
-          "emojis": ["😱","😵"]
-        },
-        {
-          "image_file": "12_stk_angry.webp",
           "emojis": ["😡","😠"]
         },
         {
-          "image_file": "13_stk_angry.webp",
-          "emojis": ["❓","🤔"]
+          "image_file": "02_stk_angry.webp",
+          "emojis": ["😡","😠"]
         },
+        {
+          "image_file": "03_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "04_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "05_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "06_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "07_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "08_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "09_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "10_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "11_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "12_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
+        {
+          "image_file": "13_stk_angry.webp",
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "14_stk_angry.webp",
-          "emojis": ["🌈","😜"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "15_stk_angry.webp",
-          "emojis": ["💻","😩"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "16_stk_angry.webp",
-          "emojis": ["😡","😤"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "17_stk_angry.webp",
           "emojis": ["😩","😨"]
         },
         {
           "image_file": "18_stk_angry.webp",
-          "emojis": ["💻","🌃"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "19_stk_angry.webp",
-          "emojis": ["🎉","✨"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "20_stk_angry.webp",
           "emojis": ["🤮","👎"]
         },
         {
           "image_file": "21_stk_angry.webp",
-          "emojis": ["🖐","🙋"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "22_stk_angry.webp",
           "emojis": ["🖐","👋"]
         },
         {
           "image_file": "23_stk_angry.webp",
-          "emojis": ["🍵","😌"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "24_stk_angry.webp",
-          "emojis": ["📱","😦"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "25_stk_angry.webp",
-          "emojis": ["🔋","😵"]
-        },
+          "emojis": ["😡","😠"]        },
         {
           "image_file": "26_stk_angry.webp",
-          "emojis": ["🍵","😌"]
+          "emojis": ["😡","😠"]
         },
         {
           "image_file": "27_stk_angry.webp",
