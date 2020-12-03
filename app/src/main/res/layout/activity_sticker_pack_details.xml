@@ -118,7 +118,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:background="@drawable/btn_green"
+            android:background="@color/actionBarArrowColor"
             android:clickable="true"
             android:visibility="invisible"
             android:focusable="true"
@@ -135,9 +135,9 @@
 
                 android:focusable="false"
                 android:foreground="@android:color/transparent"
-                android:text="@string/add_to_whatsapp"
-                app:drawableLeftCompat="@drawable/sticker_3rdparty_wa"
-                app:drawableStartCompat="@drawable/sticker_3rdparty_wa" />
+                android:text="@string/watch_ad_to_unlock"
+                app:drawableLeftCompat="@drawable/ic_lock_24"
+                app:drawableStartCompat="@drawable/ic_lock_24" />
         </FrameLayout>
 
         <FrameLayout
@@ -149,9 +149,35 @@
                 android:id="@+id/details_progress_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="visible"
                 android:layout_gravity="center"
 
                 />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_green"
+            android:clickable="true"
+            android:id="@+id/add_for_free"
+            android:focusable="true"
+             android:visibility="invisible"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            >
+            <TextView
+                style="@style/StickerPreviewButtonText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:drawablePadding="8dp"
+
+                android:focusable="false"
+                android:foreground="@android:color/transparent"
+                android:text="@string/add_to_whatsapp"
+                app:drawableLeftCompat="@drawable/sticker_3rdparty_wa"
+                app:drawableStartCompat="@drawable/sticker_3rdparty_wa" />
         </FrameLayout>
     </FrameLayout>
 

@@ -53,6 +53,9 @@ public class StickerContentProvider extends ContentProvider {
     public static final String STICKER_FILE_EMOJI_IN_QUERY = "sticker_emoji";
     private static final String CONTENT_FILE_NAME = "contents.json";
 
+    public static final String IS_FREE = "add_sticker_pack_without_watching_ad";
+
+
     public static final Uri AUTHORITY_URI = new Uri.Builder().scheme(ContentResolver.SCHEME_CONTENT).authority(BuildConfig.CONTENT_PROVIDER_AUTHORITY).appendPath(StickerContentProvider.METADATA).build();
 
     /**
@@ -191,6 +194,7 @@ public class StickerContentProvider extends ContentProvider {
                         LICENSE_AGREENMENT_WEBSITE,
                         IMAGE_DATA_VERSION,
                         AVOID_CACHE,
+                        IS_FREE,
                 });
         for (StickerPack stickerPack : stickerPackList) {
             MatrixCursor.RowBuilder builder = cursor.newRow();
@@ -206,6 +210,7 @@ public class StickerContentProvider extends ContentProvider {
             builder.add(stickerPack.licenseAgreementWebsite);
             builder.add(stickerPack.imageDataVersion);
             builder.add(stickerPack.avoidCache ? 1 : 0);
+            builder.add(stickerPack.isFree ? 1 : 0);
         }
         cursor.setNotificationUri(Objects.requireNonNull(getContext()).getContentResolver(), uri);
         return cursor;

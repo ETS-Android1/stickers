@@ -27,6 +27,7 @@ import java.util.List;
 import static com.greycom.stickers.StickerContentProvider.ANDROID_APP_DOWNLOAD_LINK_IN_QUERY;
 import static com.greycom.stickers.StickerContentProvider.AVOID_CACHE;
 import static com.greycom.stickers.StickerContentProvider.IOS_APP_DOWNLOAD_LINK_IN_QUERY;
+import static com.greycom.stickers.StickerContentProvider.IS_FREE;
 import static com.greycom.stickers.StickerContentProvider.LICENSE_AGREENMENT_WEBSITE;
 import static com.greycom.stickers.StickerContentProvider.PRIVACY_POLICY_WEBSITE;
 import static com.greycom.stickers.StickerContentProvider.PUBLISHER_EMAIL;
@@ -106,7 +107,9 @@ class StickerPackLoader {
             final String licenseAgreementWebsite = cursor.getString(cursor.getColumnIndexOrThrow(LICENSE_AGREENMENT_WEBSITE));
             final String imageDataVersion = cursor.getString(cursor.getColumnIndexOrThrow(IMAGE_DATA_VERSION));
             final boolean avoidCache = cursor.getShort(cursor.getColumnIndexOrThrow(AVOID_CACHE)) > 0;
-            final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImage, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, imageDataVersion, avoidCache);
+            final boolean isFree = cursor.getShort(cursor.getColumnIndexOrThrow(IS_FREE)) > 0;
+
+            final StickerPack stickerPack = new StickerPack(identifier, name, publisher, trayImage, publisherEmail, publisherWebsite, privacyPolicyWebsite, licenseAgreementWebsite, imageDataVersion, avoidCache, isFree);
             stickerPack.setAndroidPlayStoreLink(androidPlayStoreLink);
             stickerPack.setIosAppStoreLink(iosAppLink);
             stickerPackList.add(stickerPack);

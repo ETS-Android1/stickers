@@ -59,6 +59,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private StickerPreviewAdapter stickerPreviewAdapter;
     private int numColumns;
     private View addButton;
+    private View addForFree;
     private View progressBar;
     private TextView alreadyAddedText;
     private StickerPack stickerPack;
@@ -76,6 +77,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
 
         boolean showUpButton = getIntent().getBooleanExtra(EXTRA_SHOW_UP_BUTTON, false);
         stickerPack = getIntent().getParcelableExtra(EXTRA_STICKER_PACK_DATA);
+
         TextView packNameTextView = findViewById(R.id.pack_name);
         TextView packPublisherTextView = findViewById(R.id.author);
         ImageView packTrayIcon = findViewById(R.id.tray_image);
@@ -83,6 +85,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         progressBar = findViewById(R.id.details_progress_bar);
 
         addButton = findViewById(R.id.add_to_whatsapp_button);
+        addForFree = findViewById(R.id.add_for_free);
         alreadyAddedText = findViewById(R.id.already_added_text);
         layoutManager = new GridLayoutManager(this, 1);
         recyclerView = findViewById(R.id.sticker_list);
@@ -109,6 +112,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
                 rewardedAd = loadRewardedAds();
             }
         });
+        addForFree.setOnClickListener( v-> addStickerPackToWhatsApp(stickerPack.identifier,stickerPack.name));
 
 
         if (getSupportActionBar() != null) {
@@ -152,12 +156,24 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
 
     private void updateAddUI(Boolean isWhitelisted) {
         if (isWhitelisted) uiAlreadyAdded();
+        else if (stickerPack.isFree){
+            Log.i(TAG, "updateAddUI: This Sticker is Free ");
+            uiAddForFree();
+        }
         else loadRewardedAds();
+    }
+
+    private void uiAddForFree() {
+        progressBar.setVisibility(View.INVISIBLE);
+        addButton.setVisibility(View.INVISIBLE);
+        alreadyAddedText.setVisibility(View.INVISIBLE);
+        addForFree.setVisibility(View.VISIBLE); // free btn only visible
     }
 
     private void uiAlreadyAdded() {
         addButton.setVisibility(View.GONE);
         progressBar.setVisibility(View.GONE);
+        addForFree.setVisibility(View.INVISIBLE);
         alreadyAddedText.setVisibility(View.VISIBLE); // only visible
     }
 
@@ -165,12 +181,14 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
     private void uiLoadingDone() {
         alreadyAddedText.setVisibility(View.GONE);
         addButton.setVisibility(View.VISIBLE); // only visible
+        addForFree.setVisibility(View.INVISIBLE);
         progressBar.setVisibility(View.INVISIBLE);
     }
 
     private void uiLoading() {
         alreadyAddedText.setVisibility(View.GONE);
         addButton.setVisibility(View.INVISIBLE);
+        addForFree.setVisibility(View.INVISIBLE);
         progressBar.setVisibility(View.VISIBLE); // only visible
     }
 
@@ -303,6 +321,7 @@ public class StickerPackDetailsActivity extends AddStickerPackActivity {
         @Override
         protected final Boolean doInBackground(StickerPack... stickerPacks) {
             StickerPack stickerPack = stickerPacks[0];
+
             final StickerPackDetailsActivity stickerPackDetailsActivity = stickerPackDetailsActivityWeakReference.get();
             if (stickerPackDetailsActivity == null) {
                 return false;

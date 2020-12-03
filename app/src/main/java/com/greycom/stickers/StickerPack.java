@@ -25,13 +25,15 @@ class StickerPack implements Parcelable {
     final String imageDataVersion;
     final boolean avoidCache;
 
+     final boolean isFree;
+
     String iosAppStoreLink;
     private List<Sticker> stickers;
     private long totalSize;
     String androidPlayStoreLink;
     private boolean isWhitelisted;
 
-    StickerPack(String identifier, String name, String publisher, String trayImageFile, String publisherEmail, String publisherWebsite, String privacyPolicyWebsite, String licenseAgreementWebsite, String imageDataVersion, boolean avoidCache) {
+    StickerPack(String identifier, String name, String publisher, String trayImageFile, String publisherEmail, String publisherWebsite, String privacyPolicyWebsite, String licenseAgreementWebsite, String imageDataVersion, boolean avoidCache, boolean isFree) {
         this.identifier = identifier;
         this.name = name;
         this.publisher = publisher;
@@ -42,7 +44,15 @@ class StickerPack implements Parcelable {
         this.licenseAgreementWebsite = licenseAgreementWebsite;
         this.imageDataVersion = imageDataVersion;
         this.avoidCache = avoidCache;
+        this.isFree = isFree;
     }
+
+//    public void isPackFree(boolean isFree){
+//        this.isFree =isFree;
+//    }
+//    public boolean checkIfFree(){
+//        return this.isFree;
+//    }
 
     void setIsWhitelisted(boolean isWhitelisted) {
         this.isWhitelisted = isWhitelisted;
@@ -68,6 +78,7 @@ class StickerPack implements Parcelable {
         isWhitelisted = in.readByte() != 0;
         imageDataVersion = in.readString();
         avoidCache = in.readByte() != 0;
+        isFree = in.readByte() != 0;
     }
 
     public static final Creator<StickerPack> CREATOR = new Creator<StickerPack>() {
@@ -128,5 +139,6 @@ class StickerPack implements Parcelable {
         dest.writeByte((byte) (isWhitelisted ? 1 : 0));
         dest.writeString(imageDataVersion);
         dest.writeByte((byte) (avoidCache ? 1 : 0));
+        dest.writeByte((byte) (isFree ? 1 : 0));
     }
 }
