@@ -37,6 +37,7 @@
             android:layout_marginLeft="@dimen/margin_from_tray_to_name"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@color/colorAccent"
             app:layout_constraintStart_toEndOf="@+id/tray_image"
             app:layout_constraintTop_toTopOf="@id/tray_image"
             tools:text="Pack Name" />

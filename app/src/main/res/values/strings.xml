@@ -1,6 +1,6 @@
 <resources>
     <!-- This is the app's name, translators please do not translate and put in the same text as English version. Developers can consider putting in their own translation, this string must be changed before publishing -->
-    <string name="app_name">Stickers Club - WAStickerApps 2021</string>
+    <string name="app_name" translatable="false">Stickers Club - WAStickerApps 2022</string>
     <!-- Content description for the sticker pack tray image -->
     <string name="tray_image_content_description">Sticker Pack Tray Image</string>
     <!-- the title of info button in the menu that takes the user to more information about that pack showing publisher website and so on -->
@@ -38,11 +38,11 @@
     <string name="add_pack_fail_prompt_update_play_link">Update</string>
     <!-- Toast text when we could not take user to play store because they don't have Google Play app installed -->
     <string name="cannot_find_play_store">Google Play is not installed on the device.</string>
-    <string name="check_your_internet_connection">Check your internet connection</string>
+    <string name="check_your_internet_connection" translatable="false">Check your internet connection</string>
 
 
 
-    <string name="home_list_banner_id">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="rewarded_ad_unit">ca-app-pub-3940256099942544/5224354917</string>
-    <string name="watch_ad_to_unlock">Watch video to unlock</string>
+    <string name="home_list_banner_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="rewarded_ad_unit" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="watch_ad_to_unlock" translatable="false">Watch video to unlock</string>
 </resources>

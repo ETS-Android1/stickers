@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".StickerPackListActivity"
     tools:showIn="@layout/activity_sticker_pack_list">
 
@@ -12,29 +12,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        app:layout_constraintTop_toTopOf="parent"
-
         android:textColor="@android:color/holo_red_dark"
+
+        app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/error_message" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/sticker_pack_list"
         android:layout_width="match_parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@id/home_list_banner"
-        android:layout_height="0dp" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/sticker_packs_list_item" />
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/home_list_banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
+        ads:adUnitId="@string/home_list_banner_id"
         ads:layout_constraintBottom_toBottomOf="parent"
-        ads:layout_constraintTop_toBottomOf="@id/sticker_pack_list"
-        ads:adUnitId="@string/home_list_banner_id">
-    </com.google.android.gms.ads.AdView>
+        ads:layout_constraintTop_toBottomOf="@id/sticker_pack_list"></com.google.android.gms.ads.AdView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
